@@ -219,6 +219,7 @@ namespace kerberos
 				state.camera->setContrast(m_contrast);
 				state.camera->setSharpness(m_sharpness);
 				//state.camera->setExposureControl(Camera::ExposureControlOff);
+	                        state.camera->setExposureControl(Camera::ExposureControlNight);
 
 				if(m_angle > 0)
 				{
